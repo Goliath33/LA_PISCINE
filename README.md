@@ -1,10 +1,10 @@
-![HEADER](https://github.com/Goliath33/LA_PISCINE/0x11\-\IMAGES/header.png)
+![HEADER](https://github.com/Goliath33/PISCINE/blob/main/0x11%20-%20IMAGES/header.jpg)
 
 # LA PISCINE - (CENTRE DE FORMATION) 
 
 ## :game_die: SOMMAIRE 
 
-|-------------------------------------------------------------------------------|
+
 |  FOLDER           | Description                                               |
 |-------------------|-----------------------------------------------------------|
 |\0x00 - CSS        | REPERTOIRE EXERCICES CSS                                  |
@@ -12,7 +12,7 @@
 |\0x02 - JAVASCRIPT | REPERTOIRE EXERCICES JAVASCRIPT                           |
 |\0x10 - PORTFOLIO  | REPERTOIRE DE MON PORTFOLIO                               |
 |\0x11 - IMAGES     | REPERTOIRE DES IMAGES DU GITHUB                           |
-|-------------------------------------------------------------------------------|
+
 
 ## :floppy_disk: COPYRIGHT :
 "I Live for the opensource community and i shared my work with you" 
