@@ -1,0 +1,171 @@
+@font-face {
+    src: url(BerthaMelanie.ttf);
+    font-family: BerthaMelanie;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+main{
+    background-color: white;
+    width: 600px;
+    height: 800px;
+
+}
+
+.rouge{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.vert{
+    background-color: green;
+    width: 400px;
+    height: 200px;
+}
+
+.bleu{
+    background-color: blue;
+    width: 600px;
+    height: 200px;
+}
+
+.image{
+    width: 600px;
+    height: 200px;
+    background-image: url("/portfolio/images/paysages.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    border: 5px double black;
+}
+
+
+
+header {
+    width: 100%;
+    height: auto;
+    align-content: middle;
+}
+
+li {
+    display: inline;
+    padding-right: 400px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    text-align: left;
+    margin: 10px;
+    
+}
+
+.text1{
+    color: rgb(207, 140, 175);
+}
+
+#text2{
+    color: rgb(35, 83, 28);
+    font-size: 30px;
+}
+
+.footer {
+    font-size: 16px;
+    background-color: blue;
+    color:white;
+
+}
+
+span{
+    color: red;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#span{
+    color: rgb(0, 197, 0);
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+
+p {
+    font-size: 16px;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    color: rgb(255, 0, 0);
+}
+
+h1 {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 3px 0px rgb(201, 11, 207);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'fantasy';
+    text-align: left;
+    color: rgb(255, 0, 221);
+    text-shadow: 5px 3px 0px rgb(0, 0, 0);
+    font-size: 32px;
+    font-style: italic;
+}
+
+h3 {
+    text-align: left;
+    color: rgb(4, 117, 0);
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.maj {
+    text-transform: uppercase;
+}
+
+.italique {
+    font-style: italic;
+}
+
+.fontface {
+    color: red;
+    font-family: 'BerthaMelanie';
+
+}
+
+.googlefont {
+    color: blue;
+    font-family: 'Roboto';
+
+}
+
+.under {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+mark {
+    background-color: rgb(255, 0, 242);
+}
+
+
+
+td {
+    font-size: 20px;
+}

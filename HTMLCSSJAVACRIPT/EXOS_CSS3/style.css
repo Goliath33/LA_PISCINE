@@ -1,0 +1,64 @@
+body {
+    background-image:url(./img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    position: relative;
+
+}
+
+article {
+    width: 90%;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+}
+
+.article1 {
+    background-color: #0f7e05;
+    border-radius: 5%;
+    opacity: 70%;
+
+}
+.article2 {
+    background-color: #3386f1;
+    border-radius: 5%;
+    opacity: 70%;
+}
+
+
+h1 {
+    color: rgb(0, 0, 0);
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+p-1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+p-2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    align-items: center;
+    height: auto;
+}

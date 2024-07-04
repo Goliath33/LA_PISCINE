@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Converse";
+    src: url(../font/COVEARG_.TTF);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Converse";
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: block;
+    margin:50px auto;
+    width:30%;
+}
+input, select{
+    display: block;
+    background-color: white;
+    border:solid 1px rgb(3, 0, 52);
+    border-radius:8px;
+    margin:10px 0;
+    width:100%;
+    padding:10px;
+    font-size: 0.9rem;
+    font-family: "Converse";
+}
+
+::placeholder{
+    color:rgba(3, 0, 52, 0.6);
+    font-family: "Converse";
+    font-size: 0.7rem;
+}
+
+.inputWrapper{
+    display: flex;
+    gap:5px;
+    width:100%;
+    position: relative;
+}
+
+input[type="submit"]{
+   width:100%;
+    color:white;
+    background-color:rgb(3, 0, 52);
+    transition: all 1s ease;
+    cursor: pointer;
+}
+#submit{
+    position: relative;
+    width:40%;
+    margin-left:auto;
+}
+
+#submit::before{
+    content:"\21E8";
+    width: 25px;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+    font-size:1.2rem;
+    background-color: red;
+    border-radius: 50%;
+    padding:10px;
+    border:solid 3px white;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+    position: absolute;
+    left:-25px;
+    top:50%;
+    transform: translate(0,-50%);
+    transition: all 1s ease;
+}
+
+
+#submit:hover::before{
+  transform: translate(180px, -50%) rotate(180deg);
+  box-shadow: -2px -2px 2px rgba(0,0,0,0.7);
+}
+
+#submit:hover input[type="submit"]{
+    background-color: white;
+    color:rgb(3, 0, 52);
+}
+
+.errorInput.error{
+    color:red;
+    font-size: 0.8rem;
+    font-family:"Roboto";
+    position: absolute;
+    left:0;
+    bottom:-5px
+}
+
+.errorDiv.error{
+    font-family: Roboto;
+    font-weight:bold;
+    font-size:1.1rem;
+    color:red;
+    text-align:center;
+    padding:10px;
+    background-color: rgb(238, 164, 164);
+    border-radius:5px;
+
+}

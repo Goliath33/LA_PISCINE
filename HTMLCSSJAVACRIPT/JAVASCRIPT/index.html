@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, intitial-scale=1.0" />
+        <meta name="description" content="Mon premier site en HTML & Javacript" />
+        <meta name="author" content="David SELLIER" />
+        <link rel="stylesheet" href="style.css" >
+        <script defer src="script.js"></script>
+        <title>Mon premier site</title>
+    </head>
+    <body>
+    <script>
+
+        const fruits = ["banane", "pastèque", "melon", "fraise", "cerise", "pomme", "poire"];
+        const semaine = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"];
+
+        
+        //Ecrire ici la première boucle for affichant la phrase comprenant le fruit et le jour dans l'ordre croissant
+
+        for (let i = 0; i < fruits.length; i++) {
+            console.log(fruits[i] + " " + semaine[i]);
+        }      
+
+        //Ecrire ici la seconde boucle while affichant la phrase comprenant le fruit et le jour mais en sens inverse
+        
+        let i = fruits.length;
+        while (i > 0) {
+            i--;
+            console.log(fruits[i] + " " + semaine[i]);
+        }
+
+        //Ecrire ici une fonction permettant d'additionner 2 nombres puis de diviser le résultat de cette opération par un troisième nombre,
+        //vous appelerez cette fontion 5 fois dans votre programme avec les resultats en pop-up.
+        
+       /* function additionner(a, b, c) {
+            let resultat = a + b;
+            let resultat2 = resultat / c;
+            return (resultat, resultat2);
+        }
+        
+        let prChiffre = prompt("Entrez un nombre :");
+        let deChiffre = prompt("Entrez un nombre :");
+        let trChiffre = prompt("Entrez un nombre :");
+
+        for (let i = 0; i < 5; i++) {
+            let resultat = additionner(prChiffre, deChiffre, trChiffre);
+            alert(resultat);{
+        }
+        */
+
+    </script>
+</body>
+
+</html>
+   -
