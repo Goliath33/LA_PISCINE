@@ -1,2 +1,22 @@
-# PISCINE
-# (CENTRE DE FORMATION à Mérignac)
+![HEADER](https://github.com/Goliath33/LA_PISCINE/0x11\-\IMAGES/header.png)
+
+# LA PISCINE - (CENTRE DE FORMATION) 
+
+## :game_die: SOMMAIRE 
+
+|-------------------------------------------------------------------------------|
+|  FOLDER           | Description                                               |
+|-------------------|-----------------------------------------------------------|
+|\0x00 - CSS        | REPERTOIRE EXERCICES CSS                                  |
+|\0x01 - HTML       | REPERTOIRE EXERCICES HTML                                 |
+|\0x02 - JAVASCRIPT | REPERTOIRE EXERCICES JAVASCRIPT                           |
+|\0x10 - PORTFOLIO  | REPERTOIRE DE MON PORTFOLIO                               |
+|\0x11 - IMAGES     | REPERTOIRE DES IMAGES DU GITHUB                           |
+|-------------------------------------------------------------------------------|
+
+## :floppy_disk: COPYRIGHT :
+"I Live for the opensource community and i shared my work with you" 
+- "take care of yourself"
+
+## :v: THANKS :
+I thank my teachers and all the students of my class without whom this adventure would not have taken place
