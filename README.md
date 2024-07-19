@@ -11,6 +11,7 @@
 |\0x01 - HTML       | REPERTOIRE EXERCICES HTML                                 |
 |\0x02 - JAVASCRIPT | REPERTOIRE EXERCICES JAVASCRIPT                           |
 |\0x03 - BDD        | REPERTOIRE EXERCICES BASE DE DONNEES                      |
+|\0x04 - PROJET_BLOG| REPERTOIRE DU PROJET DE BLOG DE LA PISCINE                |
 |\0x10 - PORTFOLIO  | REPERTOIRE DE MON PORTFOLIO                               |
 |\0x11 - IMAGES     | REPERTOIRE DES IMAGES DU GITHUB                           |
 
