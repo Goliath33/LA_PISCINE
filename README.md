@@ -21,4 +21,4 @@
 - "take care of yourself"
 
 ## :v: THANKS :
-I thank my teachers and all the students of my class without whom this adventure would not have taken place
+I thank my teachers and all the students of my class without whom this adventure would not have taken place.
